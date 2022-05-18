@@ -108,7 +108,13 @@ const questions = [
                 return false;
             }
         }
-    }
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Which license will you use for your project?',
+        choices: ['agpl', 'apache', 'mit', 'no license']
+    },
 ];
 
 // TODO: Create a function to write README file
