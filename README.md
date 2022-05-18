@@ -9,12 +9,15 @@ This ReadMe generator will allow the user to create a professional ReadMe docume
 The following are images of the application:
 
 With a licence:
+
 ![ReadMe with licence provided](./Images/testing%20with%20licence.jpg)
 
 Without a licence:
+
 ![ReadMe without licence provided](./Images/testing%20without%20license.jpg)
 
 Terminal showcase:
+
 ![Terminal mock up](./Images/node%20index%20run%20phase.jpg)
 
 
