@@ -18,6 +18,97 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        name: 'githubUsername',
+        message: 'What is your GitHub Username?',
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter your GitHub username!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter your email address!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'what',
+        message: 'What is your project and what problem will it solve?',
+        validate: whatInput => {
+            if (whatInput) {
+                return true;
+            } else {
+                console.log('Please enter what your project is about!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'why',
+        message: 'Why did you create this project?',
+        validate: whyInput => {
+            if (whyInput) {
+                return true;
+            } else {
+                console.log('Please enter why you created this project!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'how',
+        message: 'How will someone use this? (Required)',
+        validate: howInput => {
+            if (howInput) {
+                return true;
+            } else {
+                console.log('Please enter what your project is!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Please provide step-by-step installation instructions for your project.',
+        validate: installInput => {
+            if (installInput) {
+                return true;
+            } else {
+                console.log('Please the projects installation instructions!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide instructions and examples for use.',
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            } else {
+                console.log('Please provide use of instructions!');
+                return false;
+            }
+        }
+    }
 ];
 
 // TODO: Create a function to write README file
