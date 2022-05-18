@@ -23,3 +23,6 @@ Terminal showcase:
 
 ## Installation
 The following link will cover the installation of this application:
+
+https://drive.google.com/file/d/1qBEsRa3EcXch-x0-e9x6Q3ePdsuFJE3_/view
+
