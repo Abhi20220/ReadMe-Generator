@@ -19,4 +19,4 @@ Terminal showcase:
 
 
 ## Installation
-The following link will cover the installation of this application
+The following link will cover the installation of this application:
